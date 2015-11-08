@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lance un défi !"
+        android:id="@+id/textViewLancerDefi" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLancerDefi"
+        android:hint="Ecris ton défi ici"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:id="@+id/buttonEnvoyerDefi"
+        android:layout_gravity="center_horizontal" />
+
+
+    <!-- List Amis -->
+    <ListView
+        android:id="@+id/listAmiLancerDefi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#000000" >
+    </ListView>
+
+</LinearLayout>

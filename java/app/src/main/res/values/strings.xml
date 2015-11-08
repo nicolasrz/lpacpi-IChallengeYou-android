@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ICU</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="Menu">
+        <item>Derniers Defis</item>
+        <item>Mon reseau</item>
+        <item>Lancer défi</item>
+        <item>Catégorie</item>
+        <item>Best</item>
+        <item>Favoris</item>
+        <item></item>
+        <item>Inscription</item>
+        <item>Connexion</item>
+        <item>Deconnexion</item>
+        <item></item>
+        <item>Moi</item>
+        <item>Ami</item>
+        <item>Autre</item>
+        <item></item>
+        <item>Defi reçu</item>
+        <item>Test</item>
+
+
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ajout">ajout</string>
+    <string name="annuler">annuler</string>
+
+    <string name="btnTakePicture">Prendre une photo</string>
+    <string name="btnRecordVideo">Prendre une video</string>
+    <string name="or">(ou)</string>
+    <string name="btnUploadToServer">Envoyez !</string>
+
+
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Pseudo</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Pas encore inscrit? Fais le maintenant.</string>
+    <string name="btn_link_to_login">Déjà enregistré! Connectes-moi.</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Pseudo</string>
+
+</resources>

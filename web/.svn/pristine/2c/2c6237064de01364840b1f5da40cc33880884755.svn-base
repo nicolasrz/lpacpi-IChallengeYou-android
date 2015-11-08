@@ -1,0 +1,15 @@
+<?php
+// on se connecte à notre base  pour recuperer les data
+$base = mysql_connect ('localhost', 'root', 'Rocklee65&');  
+mysql_select_db ('test', $base) ;  
+$req =mysql_query("SELECT * from tblVille");
+$json = array();
+ 
+if(mysql_num_rows($result)){
+while($row=mysql_fetch_assoc($result)){
+$json['emp_info'][]=$row;
+}
+}
+mysql_close($con);
+echo json_encode($json); 
+?> 

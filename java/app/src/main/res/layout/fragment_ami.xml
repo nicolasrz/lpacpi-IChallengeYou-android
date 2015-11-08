@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <include
+          android:id="@+id/menu_ami"
+          layout="@layout/menu_ami"
+          android:visibility="visible"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+       <include
+           android:id="@+id/menu_page_perso"
+           layout="@layout/menu_page_perso"
+           android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>/>
+
+
+    <!--  Linear layout Menu icone-->
+    <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="111dp"
+            android:src="@mipmap/listeami128"
+            android:id="@+id/menuListeDesAmis"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="111dp"
+            android:src="@mipmap/ajoutami128"
+            android:id="@+id/menuAjouterAmi"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="111dp"
+            android:src="@mipmap/invitami128"
+            android:id="@+id/menuInvitationRecu"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="111dp"
+            android:src="@mipmap/avatar_vide"
+            android:id="@+id/menuContactTelephone"/>
+
+
+    </LinearLayout>
+    -->
+    <!-- Fin menu Icone -->
+
+
+    <!-- List Amis -->
+
+
+    <ListView
+        android:id="@+id/listAmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#000000" >
+    </ListView>
+
+    <!-- fin liste view ami -->
+</LinearLayout>

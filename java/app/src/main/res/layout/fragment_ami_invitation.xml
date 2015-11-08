@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Linear layout Menu icone-->
+    <include
+        android:id="@+id/menu_ami"
+        layout="@layout/menu_ami"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- Fin menu Icone -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titreInvitation"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vous avez été invité par:" />
+    <!-- List Amis -->
+    <ListView
+        android:id="@+id/listeInvitationAmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#000000" >
+    </ListView>
+
+    <!-- fin liste view ami -->
+</LinearLayout>

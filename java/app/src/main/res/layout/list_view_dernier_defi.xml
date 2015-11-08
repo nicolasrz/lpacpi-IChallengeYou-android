@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+
+    android:background="#f26149">
+<!-- Bloc en entete Orange -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewDefi" />
+
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="73dp"
+            android:id="@+id/photoProfil"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:id="@+id/realisateurDefi"
+            android:layout_marginTop="50dp" />
+
+    </LinearLayout>
+
+
+    <!-- FIN  Bloc en entete Orange -->
+
+
+
+
+
+    <!-- Bloc principal vert -->
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="269dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="20dp">
+
+        <!-- BLOC PHOTO BLEU -->
+        <FrameLayout
+        android:layout_width="115dp"
+        android:layout_height="256dp"
+            android:orientation="vertical"
+        android:weightSum="1"
+            android:layout_weight="0.84"
+            android:layout_marginLeft="20dp">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageViewPreuveDefi" />
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:id="@+id/videoViewPreuveDefi"
+                android:background="@color/videoDefiOff" />
+
+
+        </FrameLayout>
+        <!-- FIN BLOC PHOTO BLEU -->
+
+        <!-- ICone couleur rose -->
+<!--
+        <LinearLayout
+            android:layout_width="38dp"
+            android:layout_height="257dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favoris"
+                android:src="@mipmap/favoris"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebook"
+                android:src="@mipmap/apropos"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/action"
+                android:src="@mipmap/actuprofil"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/easy"
+                android:src="@mipmap/contact"
+                />
+        </LinearLayout>
+        -->
+        <!-- ICone couleur rose -->
+
+
+    </LinearLayout>
+    <!-- FIN  Bloc principal vert -->
+
+
+    <!-- Commentaire du realisateur defi -->
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:id="@+id/commentaireRealisateurDefi" />
+
+    </LinearLayout>
+    <!-- FIN Commentaire du realisateur defi -->
+
+
+<!--
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/votePlus"
+            android:src="@mipmap/contact"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voteBas"
+            android:src="@mipmap/aide1"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/commenter"
+            android:src="@mipmap/dernierdef3"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+-->
+
+</LinearLayout>

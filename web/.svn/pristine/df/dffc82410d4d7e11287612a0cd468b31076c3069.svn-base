@@ -1,0 +1,23 @@
+Mainactivity:
+
+
+ ObjectDrawerItem[] drawerItem = new ObjectDrawerItem[6]; + 1
+ 
+ 
+ drawerItem[5] = new ObjectDrawerItem(R.mipmap.categorie4, "Defi Recu"); + 1
+ 
+ case 4:
+                fragment = new DefiRecu();
+                break;
+				
+				
+				
+Nouveau fragment extends fragment
+import android.app.Fragment;				
+
+
+Crééer layout
+
+
+strings.xml
+<item>Defi Recu</item>
